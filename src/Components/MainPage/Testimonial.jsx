@@ -2,6 +2,9 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import sn1 from '../../../public/img/testimonial-1.jpg'
+import sn2 from '../../../public/img/testimonial-2.jpg'
+// import sn3 from '../../../public/img/testimonial-3.jpg'
 
 const Testimonial = () => {
   return (
@@ -29,7 +32,7 @@ const Testimonial = () => {
                   <div className="position-relative mb-4">
                     <img
                       className="img-fluid mx-auto"
-                      src="img/testimonial-1.jpg"
+                      src={sn1}
                       alt=""
                     />
                     <div
@@ -53,7 +56,7 @@ const Testimonial = () => {
                   <div className="position-relative mb-4">
                     <img
                       className="img-fluid mx-auto"
-                      src="img/testimonial-2.jpg"
+                      src={sn2}
                       alt=""
                     />
                     <div

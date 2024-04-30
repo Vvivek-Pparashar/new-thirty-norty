@@ -10,7 +10,7 @@ const Pricing1 = () => {
         >
           <h6 className="text-primary text-uppercase">Pricing Plan</h6>
           <h1 className="display-5 text-uppercase mb-0">
-            Competitive Pricing For Pet Services
+            Competitive Pricing For Tennis Coaching
           </h1>
         </div>
         <div className="row g-5">
