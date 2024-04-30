@@ -1,0 +1,118 @@
+.card img {
+    border-radius: 50%;
+}
+
+.card,
+.stats {
+    display: flex;
+}
+
+.card {
+    padding: 2.5rem 1.5rem;
+    border-radius: 10px 0 0 10px;
+    background-color: rgba(255, 255, 255, .5);
+    max-width: 600px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+.card::after {
+    background-image: url(../../../public/img/ball.png);
+    background-size: cover;
+    background-position: -10% -110%;
+    border-radius: 0 0 7.5rem 7.5rem;
+    height: 8rem;
+    width: 16rem;
+    background-color: #7AB730;
+    top: -24px;
+    right: -8rem;
+}
+
+.card img {
+    width: 8rem;
+    min-width: 80px;
+    box-shadow: 0 0 0 5px #FFF;
+}
+
+.name {
+    margin-bottom: 1rem;
+}
+
+.name h2 {
+    font-size: 1.3rem;
+    color: #212121;
+}
+
+.name h4 {
+    font-size: .8rem;
+    color: #333
+}
+
+.text {
+    font-size: .9rem;
+    margin-bottom: 2rem;
+}
+
+.stats {
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.stats li {
+    min-width: 7rem;
+}
+
+.stats li h3 {
+    font-size: .99rem;
+}
+
+.stats li h4 {
+    font-size: .75rem;
+}
+
+@media screen and (max-width: 450px) {
+    .try {
+        padding-inline: 1rem !important;
+    }
+
+    .card {
+        display: block;
+        border-radius: 10px;
+    }
+
+    .card::after{
+        display: none;
+    }
+
+    .owner-img {
+        display: none;
+    }
+
+    .stats li {
+        margin-left: -30px;
+        list-style: none;
+    }
+
+    .infos {
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+}
+
+
+.owner-img {
+    background-image: url(../img/team-1.jpg);
+    flex: 1;
+    height: 484px;
+    border-radius: 0 10px 10px 0;
+    background-size: cover;
+    border: 1px solid;
+}

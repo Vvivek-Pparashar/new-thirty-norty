@@ -1,0 +1,71 @@
+.bg-testimonial {
+  background: url(../img/testimonial.jpg) top left no-repeat;
+  background-size: cover;
+}
+
+.testimonial-carousel .owl-nav {
+  position: absolute;
+  width: 100%;
+  height: 46px;
+  top: calc(50% - 23px);
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: var(--primary);
+  font-size: 22px;
+  transition: .5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+  color: var(--dark);
+}
+
+.testimonial-carousel .owl-item img {
+  width: 100px;
+  height: 100px;
+}
+
+@media (min-width: 576px) {
+  .blog-item .row {
+      height: 300px;
+  }
+}
+
+.blog-item a i {
+  position: relative;
+  padding-left: 20px;
+  transition: .3s;
+}
+
+.blog-item a:hover i {
+  padding-left: 50px;
+}
+
+.blog-item a i::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  top: 50%;
+  left: 10px;
+  margin-top: -1px;
+  background: var(--primary);
+  transition: .3s;
+}
+
+.blog-item a:hover i::after {
+  width: 50px;
+} 
