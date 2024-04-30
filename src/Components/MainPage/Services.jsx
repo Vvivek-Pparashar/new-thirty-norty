@@ -1,6 +1,13 @@
 import React from "react";
 import NewServices from "./NewServices";
 
+const list = [
+  { id: 1, name: "PROFESSIONAL COACHING" },
+  { id: 2, name: "RECREATIONAL COACHING" },
+  { id: 3, name: "TENNIS CAMP IN EUROPE" },
+  { id: 4, name: "CAREER COUNSELING" },
+];
+
 const Services = () => {
   return (
     <div className="container-fluid py-5">
@@ -15,7 +22,9 @@ const Services = () => {
           </h1>
         </div>
         <div className="row g-5">
-        {[1, 2, 3, 4].map((e)=><NewServices page={e}/>)}
+          {list.map((e) => (
+            <NewServices id={e.id} name={e.name} />
+          ))}
         </div>
       </div>
     </div>
