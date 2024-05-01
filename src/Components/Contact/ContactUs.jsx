@@ -9,6 +9,7 @@ const ContactUs = () => {
   return (
     <div>
       <NavBar page={"contact"} />
+      <div className="p-3"></div>
       <CC1 />
       <Footer />
       <FloatingWhatsApp />

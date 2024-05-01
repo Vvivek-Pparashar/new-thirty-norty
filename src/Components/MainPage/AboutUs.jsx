@@ -7,11 +7,8 @@ import { useLocation } from "react-router-dom";
 
 const list  = ["", sn1, sn2, sn3, sn4];
 
-const AboutUs = () => {
+const AboutUs = ({page}) => {
   const [user, setUser] = useState(1);
-  let location = useLocation();
-  location = location.pathname.split("/");
-  location = location[2];
   return (
     <div>
       <div className="container-fluid py-5">
@@ -24,7 +21,7 @@ const AboutUs = () => {
               <div className="position-relative h-100">
                 <img
                   className="position-absolute w-100 h-100 rounded"
-                  src={list[location[1]]}
+                  src={list[page]}
                   style={{ objectFit: "cover" }}
                 />
               </div>
