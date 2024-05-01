@@ -1,0 +1,31 @@
+.services-hover{
+    overflow: hidden;
+}
+
+.services-hover:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.services-hover:hover .services-img{
+    transform: scale(1.2);
+}
+
+.services-img{
+    width: 100%;
+    transition: 0.4s ease;
+}
+
+/* .services-img:hover{
+    
+} */
+
+.services-btn{
+    width: 100%;
+    font-size: 18px;
+    background-color: var(--primary);
+    z-index: 10;
+}
+
+.services-btn:hover{
+    background-color: #5a9413;
+}
