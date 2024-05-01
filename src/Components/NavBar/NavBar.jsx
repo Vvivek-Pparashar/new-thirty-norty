@@ -45,43 +45,24 @@ const NavBar = ({ page }) => {
           id="navbarCollapse"
         >
           <div className="navbar-nav ms-auto py-0">
-            <Link
-              to="/"
-              className={`${page == "Home" ? "active" : ""} nav-item nav-link`}
-            >
-              Home
+            <Link to="/" className="nav-item nav-link">
+              India
             </Link>
-            <Link
-              to="/About"
-              className={`${
-                page == "AboutUs" ? "active" : ""
-              } nav-item nav-link`}
-            >
-              About
+            <Link to="/" className="nav-item nav-link">
+              Europe
             </Link>
-            {/* <Link
-              to="/Services"
-              className={`${
-                page == "Services" ? "active" : ""
-              } nav-item nav-link`}
-            >
-              Services
-            </Link> */}
-            <Link
-              to="/ContactUs"
-              className={`${
-                page == "contact" ? "active" : ""
-              } nav-item nav-link`}
-            >
-              Contact
+            <Link to="/" className="nav-item nav-link">
+              USA
             </Link>
-
-            {/* <Link
-              to="/Blog"
-              className={`${page == "Blog" ? "active" : ""} nav-item nav-link`}
-            >
-              Blogs
-            </Link> */}
+            <Link to="/" className="nav-item nav-link">
+              Global
+            </Link>
+            <Link to="/" className="nav-item nav-link">
+              Tennis Academies
+            </Link>
+            <Link to="/" className="nav-item nav-link">
+              Career Counselling
+            </Link>
 
             <Link
               to="/EnquireNow"

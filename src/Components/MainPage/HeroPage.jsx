@@ -30,7 +30,7 @@ const HeroPage = () => {
                 >
                   Read More
                 </a>
-                <button
+                {/* <button
                   type="button"
                   className="btn-play"
                   data-bs-toggle="modal"
@@ -41,7 +41,7 @@ const HeroPage = () => {
                 </button>
                 <h5 className="font-weight-normal text-white m-0 ms-4 d-none d-sm-block">
                   Play Video
-                </h5>
+                </h5> */}
               </div>
             </div>
           </div>

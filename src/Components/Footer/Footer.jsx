@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const Footer = () => {
   return (
     <div>
@@ -31,6 +30,33 @@ const Footer = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <h5 className="text-uppercase border-start border-5 border-primary ps-3 mb-4">
+                Countries
+              </h5>
+              <div className="d-flex flex-column justify-content-start">
+                <Link className="text-body mb-2" to="/">
+                  <i className="bi bi-arrow-right text-primary me-2"></i>India
+                </Link>
+                <Link className="text-body mb-2" to="#">
+                  <i className="bi bi-arrow-right text-primary me-2"></i>USA
+                </Link>
+                <Link className="text-body mb-2" to="#">
+                  <i className="bi bi-arrow-right text-primary me-2"></i>Europe
+                </Link>
+                <Link className="text-body mb-2" to="#">
+                  <i className="bi bi-arrow-right text-primary me-2"></i>Global
+                </Link>
+                {/* <Link className="text-body mb-2" to="#">
+                  <i className="bi bi-arrow-right text-primary me-2"></i>Latest
+                  Blog
+                </Link>
+                <Link className="text-body" to="#">
+                  <i className="bi bi-arrow-right text-primary me-2"></i>Contact
+                  Us
+                </Link> */}
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <h5 className="text-uppercase border-start border-5 border-primary ps-3 mb-4">
                 Quick Links
               </h5>
               <div className="d-flex flex-column justify-content-start">
@@ -45,50 +71,21 @@ const Footer = () => {
                   <i className="bi bi-arrow-right text-primary me-2"></i>Our
                   Services
                 </Link>
-                <Link className="text-body mb-2" to="#">
+                {/* <Link className="text-body mb-2" to="#">
                   <i className="bi bi-arrow-right text-primary me-2"></i>Meet
                   The Team
                 </Link>
                 <Link className="text-body mb-2" to="#">
                   <i className="bi bi-arrow-right text-primary me-2"></i>Latest
                   Blog
-                </Link>
+                </Link> */}
                 <Link className="text-body" to="#">
                   <i className="bi bi-arrow-right text-primary me-2"></i>Contact
                   Us
                 </Link>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
-              <h5 className="text-uppercase border-start border-5 border-primary ps-3 mb-4">
-                Popular Links
-              </h5>
-              <div className="d-flex flex-column justify-content-start">
-                <Link className="text-body mb-2" to="/">
-                  <i className="bi bi-arrow-right text-primary me-2"></i>Home
-                </Link>
-                <Link className="text-body mb-2" to="#">
-                  <i className="bi bi-arrow-right text-primary me-2"></i>About
-                  Us
-                </Link>
-                <Link className="text-body mb-2" to="#">
-                  <i className="bi bi-arrow-right text-primary me-2"></i>Our
-                  Services
-                </Link>
-                <Link className="text-body mb-2" to="#">
-                  <i className="bi bi-arrow-right text-primary me-2"></i>Meet
-                  The Team
-                </Link>
-                <Link className="text-body mb-2" to="#">
-                  <i className="bi bi-arrow-right text-primary me-2"></i>Latest
-                  Blog
-                </Link>
-                <Link className="text-body" to="#">
-                  <i className="bi bi-arrow-right text-primary me-2"></i>Contact
-                  Us
-                </Link>
-              </div>
-            </div>
+
             <div className="col-lg-3 col-md-6">
               <h5 className="text-uppercase border-start border-5 border-primary ps-3 mb-4">
                 Newsletter
@@ -128,7 +125,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-12 text-center text-body">
+            {/* <div className="col-12 text-center text-body">
               <Link className="text-body" to="">
                 Terms & Conditions
               </Link>
@@ -152,7 +149,7 @@ const Footer = () => {
               <Link className="text-body" to="">
                 FAQs
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -171,7 +168,11 @@ const Footer = () => {
             <div className="col-md-6 text-center text-md-end">
               <p className="mb-0">
                 Designed by{" "}
-                <Link className="text-white" to="https://thirty40.in/" target="__blank">
+                <Link
+                  className="text-white"
+                  to="https://thirty40.in/"
+                  target="__blank"
+                >
                   Thiry40 developer Team
                 </Link>
               </p>
