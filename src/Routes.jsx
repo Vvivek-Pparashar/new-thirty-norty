@@ -7,6 +7,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import Services from "./Components/Services/Services";
 import EnquireNow from "./Components/EnquireNow/EnquireNow";
 import PlaceEnquire from "./Components/EnquireNow/PlaceEnquire";
+import Countries from "./Components/countries/Countries";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,11 @@ const router = createBrowserRouter([
   {
     path:"/services/:id",
     element:<Services/>
+  },
+
+  {
+    path:"/countries", 
+    element:<Countries/>
   }
 ]);
 

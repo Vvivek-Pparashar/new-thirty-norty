@@ -45,22 +45,22 @@ const NavBar = ({ page }) => {
           id="navbarCollapse"
         >
           <div className="navbar-nav ms-auto py-0">
-            <Link to="/" className="nav-item nav-link">
+            <Link to="/countries" className="nav-item nav-link">
               India
             </Link>
-            <Link to="/" className="nav-item nav-link">
+            <Link to="/countries" className="nav-item nav-link">
               Europe
             </Link>
-            <Link to="/" className="nav-item nav-link">
+            <Link to="/countries" className="nav-item nav-link">
               USA
             </Link>
-            <Link to="/" className="nav-item nav-link">
+            <Link to="/countries" className="nav-item nav-link">
               Global
             </Link>
-            <Link to="/" className="nav-item nav-link">
+            <Link to="/countries" className="nav-item nav-link">
               Tennis Academies
             </Link>
-            <Link to="/" className="nav-item nav-link">
+            <Link to="/countries" className="nav-item nav-link">
               Career Counselling
             </Link>
 

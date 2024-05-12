@@ -1,0 +1,41 @@
+.service-hero-page {
+    margin-top: 85px;
+    position: relative;
+}
+
+.service-hero-img {
+    background-image: url("../../../public/img/hero4.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.service-hero-page h1 {
+    font-size: 6rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+}
+
+@media screen and (max-width: 400px) {
+    .services {
+        gap: 100px;
+    }
+
+    .service-hero-page {
+        margin-top: 70px;
+    }
+
+    .service-hero-img {
+        background-attachment: initial;
+    }
+}
