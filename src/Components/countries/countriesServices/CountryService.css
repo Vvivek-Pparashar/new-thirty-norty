@@ -46,8 +46,8 @@
 }
 
 .service-img img {
-  width: 500px;
-  height: 570px;
+  width: 400px;
+  height: 550px;
 }
 
 @media screen and (max-width: 400px) {

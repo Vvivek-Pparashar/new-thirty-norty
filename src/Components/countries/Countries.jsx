@@ -4,9 +4,9 @@ import NavBar from "../NavBar/NavBar";
 import img1 from "../../../public/img/hero5.jpg";
 import img2 from "../../../public/img/SH2.jpg";
 import img3 from "../../../public/img/offer.jpg";
-import img4 from "../../../public/img/vivek1.png";
-import img5 from "../../../public/img/vivek2.png";
-import img6 from "../../../public/img/vivek3.png";
+import img4 from "../../../public/img/vivek6.png";
+import img5 from "../../../public/img/vivek5.png";
+import img6 from "../../../public/img/vivek4.png";
 import Footer from "../Footer/Footer";
 import CountryService from "./countriesServices/CountryService";
 
@@ -35,7 +35,7 @@ const Countries = () => {
         <CountryService
           direction={1}
           bgcolor={"white"}
-          serviceIMG={img4}
+          serviceIMG={img6}
           serviceHeading={"Admission in Schools and Colleges."}
         />
         <CountryService
@@ -47,7 +47,7 @@ const Countries = () => {
         <CountryService
           direction={1}
           bgcolor={"white"}
-          serviceIMG={img6}
+          serviceIMG={img4}
           serviceHeading={"Admission in Schools and Colleges."}
         />
       </div>
