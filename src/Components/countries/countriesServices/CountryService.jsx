@@ -6,12 +6,12 @@ const CountryService = ({ direction, serviceHeading, bgcolor, serviceIMG }) => {
 
   return (
     <>
-      <div className="container-fluid">
+      <div className={`container-fluid ${direction  == 2? "vivek" : ""}`}>
         <div
           className={`container service-container ${
             direction == 2 ? "reverse" : " "
           }`}
-          style={{ backgroundColor: `${bgcolor}` }}
+          // style={{ backgroundColor: `${bgcolor}` }}
         >
           <div className="services-text">
             <div className="border-start border-5 border-primary ps-5 mb-3">
@@ -47,7 +47,7 @@ const CountryService = ({ direction, serviceHeading, bgcolor, serviceIMG }) => {
                 Lorem ipsum dolor, sit amet consecr adipisicing
                 elit. Volupt, cupiditate Lorem ipsum dolor, sit amet consecr
               </li>
-              
+
             </ul>
           </div>
           <div className="service-img">

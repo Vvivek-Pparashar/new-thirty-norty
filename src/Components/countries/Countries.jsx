@@ -34,19 +34,19 @@ const Countries = () => {
       <div className="services">
         <CountryService
           direction={1}
-          bgcolor={"white"}
+        //   bgcolor={"white"}
           serviceIMG={img6}
           serviceHeading={"Admission in Schools and Colleges."}
         />
         <CountryService
           direction={2}
-          bgcolor={"white"}
+        //   bgcolor={"#7ab730"}
           serviceIMG={img5}
           serviceHeading={"Admission in Schools and Colleges."}
         />
         <CountryService
           direction={1}
-          bgcolor={"white"}
+        //   bgcolor={"white"}
           serviceIMG={img4}
           serviceHeading={"Admission in Schools and Colleges."}
         />
