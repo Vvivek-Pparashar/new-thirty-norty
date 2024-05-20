@@ -1,11 +1,13 @@
 import React from "react";
-import NewServices from "./NewServices";
+import ServicesComp from "./ServicesComp";
 
 const list = [
   { id: 1, name: "PROFESSIONAL COACHING" },
   { id: 2, name: "RECREATIONAL COACHING" },
   { id: 3, name: "TENNIS CAMP IN EUROPE" },
   { id: 4, name: "CAREER COUNSELING" },
+  { id: 5, name: "TENNIS CAMP IN EUROPE" },
+  { id: 6, name: "CAREER COUNSELING" },
 ];
 
 const Services = () => {
@@ -21,9 +23,9 @@ const Services = () => {
             Our Excellent Tennis Services
           </h1>
         </div>
-        <div className="row g-5">
+        <div className="row" style={{rowGap:"30px"}}>
           {list.map((e) => (
-            <NewServices id={e.id} name={e.name} />
+            <ServicesComp id={e.id} name={e.name} />
           ))}
         </div>
       </div>

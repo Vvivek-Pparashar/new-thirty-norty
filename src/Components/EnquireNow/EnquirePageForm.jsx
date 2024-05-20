@@ -3,7 +3,7 @@ import sn3 from "../../../public/img/spain.jpeg";
 
 const EnquirePageForm = ({place}) => {
   return (
-    <div>
+    <div className="pt-5">
       <div className="pt-5">
         <div className="container-fluid pt-5">
           <div className="container">

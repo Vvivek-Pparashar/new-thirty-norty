@@ -11,14 +11,9 @@ const list = [
 ];
 
 const ServicesHero = () => {
-  let location = useLocation();
-  location = location.pathname.split("/");
-  location = location[2];
-
-  console.log(location[1]);
   return (
     <div
-      className={`container-fluid bg-primary mb-5 SH${location[1]}`}
+      className={`container-fluid bg-primary mb-5 SH1`}
       style={{
         paddingInline: "100px",
         paddingTop: "295px",
@@ -31,7 +26,7 @@ const ServicesHero = () => {
         className="display-4 text-uppercase mb-lg-4"
         style={{ color: "white", textAlign: "center" }}
       >
-        {list[location[1]]}
+        {list[1]}
       </h1>
     </div>
   );

@@ -9,6 +9,7 @@ const EnquireNow = () => {
   return (
     <div>
         <NavBar page={"EnquireNow"}/>
+        <div className='pt-5' ></div>
         <EnquireNowPage/>
         <Footer/>
         <FloatingWhatsApp/>

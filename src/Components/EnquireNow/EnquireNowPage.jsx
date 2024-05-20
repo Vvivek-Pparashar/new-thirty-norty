@@ -7,8 +7,8 @@ import sn4 from "../../../public/img/mzn.jpeg";
 
 const EnquireNowPage = () => {
   return (
-    <div>
-      <div className="container-fluid py-5">
+    <div className="pt-5">
+      <div className="container-fluid py-5 pt-5">
         <div className="container">
           <div
             className="border-start border-5 border-primary ps-5 mb-5"

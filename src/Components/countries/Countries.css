@@ -3,18 +3,19 @@
     position: relative;
 }
 
-.service-hero-img {
-    background-image: url("../../../public/img/hero4.jpg");
+.SH1 {
+    background-image: url("../../../public/img/SH1.jpg");
     width: 100%;
-    height: 700px;
+    height: 600px;
     background-size: cover;
     background-attachment: fixed;
+    /* background-color: aqua; */
 }
 
 .service-hero-page h1 {
     font-size: 6rem;
     color: white;
-    position: absolute;
+    position: absolute; 
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);

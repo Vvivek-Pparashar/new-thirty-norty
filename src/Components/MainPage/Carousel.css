@@ -1,0 +1,71 @@
+.mySwiper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-page-img-1 {
+    width: 100vw;
+    height: 100%;
+
+    background-image: url("../../../public/img/hero3.jpg");
+    background-position: 0 50%;
+    background-size: cover;
+}
+
+.hero-page-img-2 {
+    width: 100vw;
+    height: 100%;
+    background-image: url("../../../public/img/hero4.jpg");
+    background-position: 0% 70%;
+    background-size: cover;
+}
+
+.hero-page-img-3 {
+    width: 100vw;
+    height: 100%;
+
+    background-image: url("../../../public/img/hero5.jpg");
+    background-position: 0% 70%;
+    background-size: cover;
+}
+
+.hero-page-img-5 {
+    width: 100vw;
+    height: 100%;
+
+    background-image: url("../../../public/img/Hero.jpg");
+    background-position: 0% 30%;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1084px) and (min-width: 600px) {
+    .hero-page-img-1 {
+        background-position: 30% 50%;
+    }
+
+    .hero-page-img-2 {
+        background-position: 40% 70%;
+    }
+
+    .hero-page-img-3 {
+        background-position: 30% 0%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-page-img-1 {
+        background-position: 30% 50%;
+    }
+
+    .hero-page-img-2 {
+        background-position: 40% 70%;
+    }
+
+    .hero-page-img-3 {
+        background-position: 30% 0%;
+    }
+}

@@ -7,7 +7,7 @@ import { useLocation } from "react-router-dom";
 
 const list  = ["", sn1, sn2, sn3, sn4];
 
-const AboutUs = ({page}) => {
+const About = ({page}) => {
   const [user, setUser] = useState(1);
   return (
     <div>
@@ -21,7 +21,7 @@ const AboutUs = ({page}) => {
               <div className="position-relative h-100">
                 <img
                   className="position-absolute w-100 h-100 rounded"
-                  src={list[page]}
+                  src={sn1}
                   style={{ objectFit: "cover" }}
                 />
               </div>
@@ -126,4 +126,4 @@ const AboutUs = ({page}) => {
   );
 };
 
-export default AboutUs;
+export default About;

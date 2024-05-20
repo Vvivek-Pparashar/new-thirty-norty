@@ -16,7 +16,7 @@ const PlaceEnquire = () => {
   return (
     <div>
       <NavBar />
-      <EnquirePageForm place={place[2].toLowerCase()}/>
+      <EnquirePageForm place={place[2].toLowerCase()} />
       <Footer />
       <FloatingWhatsApp />
       <ScrollRestoration />

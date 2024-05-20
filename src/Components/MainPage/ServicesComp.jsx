@@ -3,14 +3,14 @@ import sn1 from "../../../public/img/SH1.jpg";
 import sn2 from "../../../public/img/SH2.jpg";
 import sn3 from "../../../public/img/SH3.jpg";
 import sn4 from "../../../public/img/SH4.jpg";
-import './NewServices.css'
+import './ServicesComp.css'
 
 import { Link } from "react-router-dom";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
-const list  = ["", sn1, sn2, sn3, sn4];
+const list  = ["", sn1, sn2, sn3, sn4, sn1, sn2];
 
-const NewServices = ({ id, name }) => {
+const ServicesComp = ({ id, name }) => {
   return (
     <div className="col-lg-6">
       <div
@@ -25,10 +25,10 @@ const NewServices = ({ id, name }) => {
         }}
       >
         <img src={list[id]} className="services-img" />
-        <h1 style={{position:"absolute", bottom: 70,  color:"white", paddingTop:"20px"}}>{name}</h1>
+        <h3 style={{fontSize:"25px",  position:"absolute", bottom: 50,  color:"white", paddingTop:"20px", fontWeight:"200"}}>{name}</h3>
         <Link
           to={`/services/v${id}`}
-          className="text-white p-3 services-btn"
+          className="text-white services-btn"
         >
           Learn More
           <ArrowRightAltIcon fontSize="medium" />
@@ -38,4 +38,4 @@ const NewServices = ({ id, name }) => {
   );
 };
 
-export default NewServices;
+export default ServicesComp;

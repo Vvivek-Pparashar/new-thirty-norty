@@ -1,8 +1,8 @@
 import React from "react";
 import arnaavProfile from '../../../public/img/owner.jpg'
-import './TeamMember.css'
+import './Owner.css'
 
-const TeamMember = () => {
+const Owner = () => {
   return (
     <div>
       <div>
@@ -29,7 +29,7 @@ const TeamMember = () => {
                     <h4>@_thirty40</h4>
                   </div>
                   <p className="text">
-                    Coached various ATP & WTA players, Hitting partner of World
+                    Coached and worked with various ATP & WTA players & coaches, Hitting partner of World
                     No. 1 - Karolina Pliskova
                   </p>
                   <ul className="stats">
@@ -61,4 +61,4 @@ const TeamMember = () => {
   );
 };
 
-export default TeamMember;
+export default Owner;

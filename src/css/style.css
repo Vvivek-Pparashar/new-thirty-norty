@@ -116,9 +116,12 @@
     }
 }
 
-.hero-header {
-    background: url(../../public/img/hero3.jpg);
-    background-size: cover;
+.hero-container {
+    position: relative;
+}
+
+.hero-content {
+    padding-block: 10rem;
 }
 
 .btn-play {
