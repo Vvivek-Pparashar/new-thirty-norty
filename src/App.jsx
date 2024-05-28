@@ -12,6 +12,7 @@ import OurCenter from "./Components/MainPage/OurCenter";
 import Model from "./Components/Model/Model";
 import HeroPage from "./Components/MainPage/HeroPage";
 import News from "./Components/MainPage/News";
+import Youtube from "./Components/MainPage/Youtube";
 
 const App = () => {
   const [display, setDisplay] = useState(false);
@@ -30,7 +31,8 @@ const App = () => {
       <SpecialOffer />
       <Testimonial />
       <News/>
-      <LatestBlogs />
+      {/* <LatestBlogs /> */}
+      <Youtube/>
       <Owner />
       <Footer />
       <ScrollRestoration />

@@ -2,12 +2,12 @@ import React from "react";
 import ServicesComp from "./ServicesComp";
 
 const list = [
-  { id: 1, name: "PROFESSIONAL COACHING" },
-  { id: 2, name: "RECREATIONAL COACHING" },
-  { id: 3, name: "TENNIS CAMP IN EUROPE" },
-  { id: 4, name: "CAREER COUNSELING" },
-  { id: 5, name: "TENNIS CAMP IN EUROPE" },
-  { id: 6, name: "CAREER COUNSELING" },
+  { id: 1, name: "Join Our Academy" },
+  { id: 2, name: "Register For Tennis & Education" },
+  { id: 3, name: "Scholarship in USA & Europe" },
+  { id: 4, name: "Tennis Camp in Spain" },
+  { id: 5, name: "Career Counseling" },
+  { id: 6, name: "Book a course" },
 ];
 
 const Services = () => {
@@ -23,7 +23,7 @@ const Services = () => {
             Our Excellent Tennis Services
           </h1>
         </div>
-        <div className="row" style={{rowGap:"30px"}}>
+        <div className="row" style={{ rowGap: "30px" }}>
           {list.map((e) => (
             <ServicesComp id={e.id} name={e.name} />
           ))}

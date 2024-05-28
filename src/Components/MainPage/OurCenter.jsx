@@ -38,7 +38,7 @@ const OurCenter = () => {
               spaceBetween: 10,
             },
             1000: {
-              slidesPerView: 2,
+              slidesPerView: 4,
               spaceBetween: 25,
             },
           }}
@@ -53,55 +53,78 @@ const OurCenter = () => {
           className="myswiper2"
         >
           <SwiperSlide className="swiper-slide-2">
-            <img src={sn1} style={{ height: "350px", marginBottom: "10px" }} />
+            <img src={sn1} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
-              <div className="p-4">
-                <h2 className="text-uppercase mb-3">GuruGram</h2>
-                <p style={{ textAlign: "left", marginBottom: "30px" }}>
-                  An Integrated Program to Groom Professional Players of the
-                  Future. Our Residential Tennis Academy at Vedas International
-                  School, Gurugram is our high performance tennis centre.
-                </p>
+              <div className="p-1">
+                <h3 className="text-uppercase mb-3">GuruGram</h3>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide-2">
-            <img src={sn2} style={{ height: "350px", marginBottom: "10px" }} />
+            <img src={sn2} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
-              <div className="p-4">
-                <h2 className="text-uppercase mb-3">Delhi</h2>
-                <p style={{ textAlign: "left", marginBottom: "30px" }}>
+              <div className="p-1">
+                <h3 className="text-uppercase mb-3">Delhi</h3>
+                {/* <p style={{ textAlign: "left", marginBottom: "30px" }}>
                   This academy aims to catch talented individuals at a young age
                   & nurture them to become professional tennis players by
                   providing the right facilities, and training & recovery
                   measures.
-                </p>
+                </p> */}
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide-2">
-            <img src={sn3} style={{ height: "350px", marginBottom: "10px" }} />
+            <img src={sn3} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
-              <div className="p-4">
-                <h2 className="text-uppercase mb-3">Spain</h2>
-                <p style={{ textAlign: "left", marginBottom: "30px" }}>
+              <div className="p-1">
+                <h3 className="text-uppercase mb-3">Spain</h3>
+                {/* <p style={{ textAlign: "left", marginBottom: "30px" }}>
                   Located in Alicante, a nice town by the beach, our tennis
                   academy is the perfect setting to improve your game through
                   our personalized programs all year round.
-                </p>
+                </p> */}
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide-2">
-            <img src={sn4} style={{ height: "350px", marginBottom: "10px" }} />
+            <img src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
-              <div className="p-4">
-                <h2 className="text-uppercase mb-3">Muzzafanagar</h2>
-                <p style={{ textAlign: "left", marginBottom: "30px" }}>
+              <div className="p-1">
+                <h3 className="text-uppercase mb-3">Muzzafanagar</h3>
+                {/* <p style={{ textAlign: "left", marginBottom: "30px" }}>
                   Promoting the game at the grassroots levels, with this academy
                   we create awareness & knowledge & provide an experience of
                   this amazing sport.
-                </p>
+                </p> */}
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="swiper-slide-2">
+            <img src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
+            <div className="col-12 h-100 d-flex flex-column">
+              <div className="p-1">
+                <h3 className="text-uppercase mb-3">Belagavi</h3>
+                {/* <p style={{ textAlign: "left", marginBottom: "30px" }}>
+                  Promoting the game at the grassroots levels, with this academy
+                  we create awareness & knowledge & provide an experience of
+                  this amazing sport.
+                </p> */}
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="swiper-slide-2">
+            <img src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
+            <div className="col-12 h-100 d-flex flex-column">
+              <div className="p-1">
+                <h3 className="text-uppercase mb-3">Mumbai</h3>
+                {/* <p style={{ textAlign: "left", marginBottom: "30px" }}>
+                  Promoting the game at the grassroots levels, with this academy
+                  we create awareness & knowledge & provide an experience of
+                  this amazing sport.
+                </p> */}
               </div>
             </div>
           </SwiperSlide>
