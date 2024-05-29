@@ -2,7 +2,7 @@ import { RampRight, Widgets } from "@mui/icons-material";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import sn1 from "../../../public/img/logo.png";
-import './NavBar.css'
+import "./NavBar.css";
 
 const NavBar = ({ page }) => {
   const [navBg, setNavBg] = useState(false);
@@ -62,7 +62,7 @@ const NavBar = ({ page }) => {
         }}
       >
         <Link to="/" className="navbar-brand ms-lg-5">
-          <img src={sn1}  className="nav-logo-thirty40" />
+          <img src={sn1} className="nav-logo-thirty40" />
         </Link>
         <button
           className="navbar-toggler collapsed"
@@ -90,7 +90,12 @@ const NavBar = ({ page }) => {
             <Link to="/countries" className="nav-item nav-link">
               Global
             </Link>
-            <Link to="/countries" className="nav-item nav-link">
+            <Link
+              to="/Services/v1"
+              className={`nav-item nav-link ${
+                page == "Tennis Academies" ? "active" : ""
+              }`}
+            >
               Tennis Academies
             </Link>
             <Link to="/countries" className="nav-item nav-link">

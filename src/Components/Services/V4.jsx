@@ -3,13 +3,12 @@ import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { ScrollRestoration } from "react-router-dom";
-import './Services.css'
+import "./Services.css";
 
 const V4 = () => {
   return (
     <>
       <NavBar />
-      {/* <div className="p-5"></div> */}
       <div
         className={"container-fluid bg-primary mb-5 SH1"}
         style={{
@@ -24,7 +23,7 @@ const V4 = () => {
           className="display-4 text-uppercase mb-lg-4"
           style={{ color: "white", textAlign: "center" }}
         >
-         SPAIN
+          SPAIN
         </h2>
       </div>
       <div className="container-fluid ">
@@ -34,7 +33,9 @@ const V4 = () => {
             style={{ maxWidth: 600 + "px" }}
           >
             <h6 className="text-primary text-uppercase">Why choose,</h6>
-            <h1 className="display-5 text-uppercase mb-0">Tennis Camp In SPAIN</h1>
+            <h1 className="display-5 text-uppercase mb-0">
+              Tennis Camp In SPAIN
+            </h1>
           </div>
           <div className="spain-feature">
             <div style={{ paddingBlock: "20px", textAlign: "center" }}>

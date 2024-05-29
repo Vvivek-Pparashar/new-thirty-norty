@@ -55,16 +55,16 @@ const OurCenter = () => {
           <SwiperSlide className="swiper-slide-2">
             <img src={sn1} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
-              <div className="p-1">
-                <h3 className="text-uppercase mb-3">GuruGram</h3>
+              <div>
+                <h4 className="text-uppercase mb-3">GuruGram</h4>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide-2">
             <img src={sn2} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
-              <div className="p-1">
-                <h3 className="text-uppercase mb-3">Delhi</h3>
+              <div>
+                <h4 className="text-uppercase mb-3">Delhi</h4>
                 {/* <p style={{ textAlign: "left", marginBottom: "30px" }}>
                   This academy aims to catch talented individuals at a young age
                   & nurture them to become professional tennis players by
@@ -77,8 +77,8 @@ const OurCenter = () => {
           <SwiperSlide className="swiper-slide-2">
             <img src={sn3} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
-              <div className="p-1">
-                <h3 className="text-uppercase mb-3">Spain</h3>
+              <div>
+                <h4 className="text-uppercase mb-3">Spain</h4>
                 {/* <p style={{ textAlign: "left", marginBottom: "30px" }}>
                   Located in Alicante, a nice town by the beach, our tennis
                   academy is the perfect setting to improve your game through
@@ -90,8 +90,8 @@ const OurCenter = () => {
           <SwiperSlide className="swiper-slide-2">
             <img src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
-              <div className="p-1">
-                <h3 className="text-uppercase mb-3">Muzzafanagar</h3>
+              <div>
+                <h4 className="text-uppercase mb-3">Muzzafanagar</h4>
                 {/* <p style={{ textAlign: "left", marginBottom: "30px" }}>
                   Promoting the game at the grassroots levels, with this academy
                   we create awareness & knowledge & provide an experience of
@@ -104,8 +104,8 @@ const OurCenter = () => {
           <SwiperSlide className="swiper-slide-2">
             <img src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
-              <div className="p-1">
-                <h3 className="text-uppercase mb-3">Belagavi</h3>
+              <div>
+                <h4 className="text-uppercase mb-3">Belagavi</h4>
                 {/* <p style={{ textAlign: "left", marginBottom: "30px" }}>
                   Promoting the game at the grassroots levels, with this academy
                   we create awareness & knowledge & provide an experience of
@@ -118,8 +118,8 @@ const OurCenter = () => {
           <SwiperSlide className="swiper-slide-2">
             <img src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
-              <div className="p-1">
-                <h3 className="text-uppercase mb-3">Mumbai</h3>
+              <div>
+                <h4 className="text-uppercase mb-3">Mumbai</h4>
                 {/* <p style={{ textAlign: "left", marginBottom: "30px" }}>
                   Promoting the game at the grassroots levels, with this academy
                   we create awareness & knowledge & provide an experience of
