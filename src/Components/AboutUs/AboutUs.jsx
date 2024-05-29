@@ -13,7 +13,6 @@ const AboutUs = () => {
       <NavBar page={"AboutUs"} />
       <div className="p-5"></div>
       <About page={1} />
-      <SpecialOffer />
       <Owner />
       <Footer />
       <FloatingWhatsApp />

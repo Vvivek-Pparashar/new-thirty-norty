@@ -9,24 +9,27 @@ import V3 from "./Components/Services/V3";
 import V4 from "./Components/Services/V4";
 import V5 from "./Components/Services/V5";
 import V6 from "./Components/Services/V6";
+import AboutUs from "./Components/AboutUs/AboutUs";
+import ContactUs from "./Components/Contact/ContactUs";
+import ServicesPage from "./Components/Services/ServicesPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
-  // {
-  //   path: "/About",
-  //   element: <AboutUs />,
-  // },
-  // {
-  //   path: "/Services",
-  //   element: <Services />,
-  // },
-  // {
-  //   path: "/ContactUs",
-  //   element: <ContactUs />,
-  // },
+  {
+    path: "/AboutUs",
+    element: <AboutUs />,
+  },
+  {
+    path: "/Services",
+    element: <ServicesPage />,
+  },
+  {
+    path: "/ContactUs",
+    element: <ContactUs />,
+  },
   {
     path: "/EnquireNow",
     element: <EnquireNow />,

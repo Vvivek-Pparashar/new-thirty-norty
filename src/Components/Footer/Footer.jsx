@@ -63,23 +63,16 @@ const Footer = () => {
                 <Link className="text-body mb-2" to="#">
                   <i className="bi bi-arrow-right text-primary me-2"></i>Home
                 </Link>
-                <Link className="text-body mb-2" to="#">
+                <Link className="text-body mb-2" to="/AboutUs">
                   <i className="bi bi-arrow-right text-primary me-2"></i>About
                   Us
                 </Link>
-                <Link className="text-body mb-2" to="#">
+                <Link className="text-body mb-2" to="Services">
                   <i className="bi bi-arrow-right text-primary me-2"></i>Our
                   Services
                 </Link>
-                {/* <Link className="text-body mb-2" to="#">
-                  <i className="bi bi-arrow-right text-primary me-2"></i>Meet
-                  The Team
-                </Link>
-                <Link className="text-body mb-2" to="#">
-                  <i className="bi bi-arrow-right text-primary me-2"></i>Latest
-                  Blog
-                </Link> */}
-                <Link className="text-body" to="#">
+                
+                <Link className="text-body" to="/ContactUs">
                   <i className="bi bi-arrow-right text-primary me-2"></i>Contact
                   Us
                 </Link>
@@ -125,31 +118,6 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            {/* <div className="col-12 text-center text-body">
-              <Link className="text-body" to="">
-                Terms & Conditions
-              </Link>
-              <span className="mx-1">|</span>
-              <Link className="text-body" to="">
-                Privacy Policy
-              </Link>
-              <span className="mx-1">|</span>
-              <Link className="text-body" to="">
-                Customer Support
-              </Link>
-              <span className="mx-1">|</span>
-              <Link className="text-body" to="">
-                Payments
-              </Link>
-              <span className="mx-1">|</span>
-              <Link className="text-body" to="">
-                Help
-              </Link>
-              <span className="mx-1">|</span>
-              <Link className="text-body" to="">
-                FAQs
-              </Link>
-            </div> */}
           </div>
         </div>
       </div>
@@ -158,24 +126,11 @@ const Footer = () => {
           <div className="row g-5">
             <div className="col-md-6 text-center text-md-start">
               <p className="mb-md-0">
-                &copy;{" "}
-                <Link className="text-white" to="#">
-                  Your Site Name
-                </Link>
-                . All Rights Reserved.
+                &copy; Your Site Name . All Rights Reserved.
               </p>
             </div>
             <div className="col-md-6 text-center text-md-end">
-              <p className="mb-0">
-                Designed by{" "}
-                <Link
-                  className="text-white"
-                  to="https://thirty40.in/"
-                  target="__blank"
-                >
-                  Thiry40 developer Team
-                </Link>
-              </p>
+              <p className="mb-0">Designed by Thiry40 developer Team</p>
             </div>
           </div>
         </div>

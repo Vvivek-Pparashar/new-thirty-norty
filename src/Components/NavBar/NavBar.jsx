@@ -1,7 +1,9 @@
 import { RampRight, Widgets } from "@mui/icons-material";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import sn1 from "../../../public/img/logo.png"
+import sn1 from "../../../public/img/logo.png";
+import './NavBar.css'
+
 const NavBar = ({ page }) => {
   const [navBg, setNavBg] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
@@ -17,7 +19,7 @@ const NavBar = ({ page }) => {
     <div>
       {/* <div className="container-fluid border-bottom d-none d-lg-block">
         <div className="row gx-0"> */}
-          {/* <div className="col-lg-4 text-center py-2">
+      {/* <div className="col-lg-4 text-center py-2">
             <div className="d-inline-flex align-items-center">
               <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
               <div className="text-start">
@@ -26,7 +28,7 @@ const NavBar = ({ page }) => {
               </div>
             </div>
           </div> */}
-          {/* <div className="col-lg-6 text-center border-start border-end py-2">
+      {/* <div className="col-lg-6 text-center border-start border-end py-2">
             <div className="d-inline-flex align-items-center">
               <i className="bi bi-envelope-open fs-1 text-primary me-3"></i>
               <div className="text-start">
@@ -60,10 +62,7 @@ const NavBar = ({ page }) => {
         }}
       >
         <Link to="/" className="navbar-brand ms-lg-5">
-          <h1 className="m-0 text-uppercase text-dark">
-            {/* <i className="bi bi-shop fs-1 text-primary me-3"></i>Thirty40 */}
-            <img src={sn1} style={{width:"250px"}}/>
-          </h1>
+          <img src={sn1}  className="nav-logo-thirty40" />
         </Link>
         <button
           className="navbar-toggler collapsed"

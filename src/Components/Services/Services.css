@@ -1,0 +1,10 @@
+.spain-feature h2 {
+  font-size: 35px;
+  color: #7AB730;
+}
+
+@media screen and (max-width: 600px) {
+  .spain-feature h2 {
+    font-size: 30px;
+  }
+}

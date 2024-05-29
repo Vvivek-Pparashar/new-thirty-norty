@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import sn1 from "../../../public/img/about.jpg";
-import sn2 from "../../../public/img/SA10.jpg";
-import sn3 from "../../../public/img/SA9.jpg";
-import sn4 from "../../../public/img/SA8.jpg";
-import { useLocation } from "react-router-dom";
 
-const list  = ["", sn1, sn2, sn3, sn4];
-
-const About = ({page}) => {
+const About = () => {
   const [user, setUser] = useState(1);
   return (
     <div>

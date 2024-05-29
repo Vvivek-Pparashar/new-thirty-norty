@@ -12,9 +12,9 @@ const Owner = () => {
               className="border-start border-5 border-primary ps-5 mb-5"
               style={{ maxWidth: 600 + "px" }}
             >
-              <h6 className="text-primary text-uppercase">The Owner</h6>
+              <h6 className="text-primary text-uppercase">The Founder</h6>
               <h1 className="display-5 text-uppercase mb-0">
-                The Owner
+                The Founder
               </h1>
             </div>
 

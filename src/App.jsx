@@ -13,6 +13,7 @@ import Model from "./Components/Model/Model";
 import HeroPage from "./Components/MainPage/HeroPage";
 import News from "./Components/MainPage/News";
 import Youtube from "./Components/MainPage/Youtube";
+import Instagram from "./Components/MainPage/Instagram";
 
 const App = () => {
   const [display, setDisplay] = useState(false);
@@ -33,6 +34,7 @@ const App = () => {
       <News/>
       {/* <LatestBlogs /> */}
       <Youtube/>
+      <Instagram/>
       <Owner />
       <Footer />
       <ScrollRestoration />
