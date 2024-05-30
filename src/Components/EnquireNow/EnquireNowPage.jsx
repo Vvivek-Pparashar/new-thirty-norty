@@ -4,8 +4,8 @@ import sn1 from "../../../public/img/gurugram.jpeg";
 import sn2 from "../../../public/img/delhi.jpg";
 import sn3 from "../../../public/img/spain.jpeg";
 import sn4 from "../../../public/img/mzn.jpeg";
-import campus1 from "../../../public/img/campus1.jpg"
-import campus3 from "../../../public/img/campus3.jpg"
+import campus1 from "../../../public/img/campus1.jpg";
+import campus3 from "../../../public/img/campus3.jpg";
 
 const EnquireNowPage = () => {
   return (
@@ -26,7 +26,7 @@ const EnquireNowPage = () => {
                   src={sn1}
                   style={{
                     objectFit: "cover",
-                    
+
                     width: "100%",
                     height: "300px",
                   }}
@@ -40,7 +40,7 @@ const EnquireNowPage = () => {
                   src={sn2}
                   style={{
                     objectFit: "cover",
-                    
+
                     width: "100%",
                     height: "300px",
                   }}
@@ -54,7 +54,7 @@ const EnquireNowPage = () => {
                   src={sn3}
                   style={{
                     objectFit: "cover",
-                    
+
                     width: "100%",
                     height: "300px",
                   }}
@@ -68,7 +68,7 @@ const EnquireNowPage = () => {
                   src={sn4}
                   style={{
                     objectFit: "cover",
-                    
+
                     width: "100%",
                     height: "300px",
                   }}
@@ -84,15 +84,13 @@ const EnquireNowPage = () => {
                   src={campus1}
                   style={{
                     objectFit: "cover",
-                    
+
                     width: "100%",
                     height: "300px",
                   }}
                 />
               </Link>
-              <h3 style={{ marginTop: "20px", fontSize: "30px" }}>
-                Belagavi
-              </h3>
+              <h3 style={{ marginTop: "20px", fontSize: "30px" }}>Belagavi</h3>
             </div>
             <div className="col-lg-4" style={{ textAlign: "center" }}>
               <Link to={"/EnquireNow/Mumbai"}>
@@ -100,15 +98,13 @@ const EnquireNowPage = () => {
                   src={campus3}
                   style={{
                     objectFit: "cover",
-                    
+
                     width: "100%",
                     height: "300px",
                   }}
                 />
               </Link>
-              <h3 style={{ marginTop: "20px", fontSize: "30px" }}>
-                Mumbai
-              </h3>
+              <h3 style={{ marginTop: "20px", fontSize: "30px" }}>Mumbai</h3>
             </div>
           </div>
         </div>
