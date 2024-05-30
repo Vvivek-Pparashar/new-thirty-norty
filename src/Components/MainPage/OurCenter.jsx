@@ -1,8 +1,10 @@
 import React from "react";
 import sn1 from "../../../public/img/gurugram.jpeg";
-import sn2 from "../../../public/img/delhi.jpeg";
+import sn2 from "../../../public/img/delhi.jpg";
 import sn3 from "../../../public/img/spain.jpeg";
 import sn4 from "../../../public/img/mzn.jpeg";
+import campus1 from "../../../public/img/campus1.jpg"
+import campus3 from "../../../public/img/campus3.jpg"
 import WestOutlinedIcon from "@mui/icons-material/WestOutlined";
 import EastIcon from "@mui/icons-material/East";
 
@@ -102,7 +104,7 @@ const OurCenter = () => {
           </SwiperSlide>
 
           <SwiperSlide className="swiper-slide-2">
-            <img src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
+            <img src={campus3} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Belagavi</h4>
@@ -116,7 +118,7 @@ const OurCenter = () => {
           </SwiperSlide>
 
           <SwiperSlide className="swiper-slide-2">
-            <img src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
+            <img src={campus1} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Mumbai</h4>
