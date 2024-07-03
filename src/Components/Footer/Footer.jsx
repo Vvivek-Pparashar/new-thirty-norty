@@ -11,21 +11,21 @@ const Footer = () => {
               <h5 className="text-uppercase border-start border-5 border-primary ps-3 mb-4">
                 Get In Touch
               </h5>
-              <p className="mb-4">
+              {/* <p className="mb-4">
                 No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita
                 et et dolor sed dolor
-              </p>
-              <p className="mb-2">
-                <i className="bi bi-geo-alt text-primary me-2"></i>123 Street,
-                New York, USA
+              </p> */}
+              <p className="mb-2 d-flex">
+                <i className="bi bi-geo-alt text-primary me-2"></i>FN-5, 3 F,
+                HVR, Ward 8, Mehrauli, 110030, New Delhi, India
               </p>
               <p className="mb-2">
                 <i className="bi bi-envelope-open text-primary me-2"></i>
-                info@example.com
+                info@thirty40.in
               </p>
               <p className="mb-0">
-                <i className="bi bi-telephone text-primary me-2"></i>+012 345
-                67890
+                <i className="bi bi-telephone text-primary me-2"></i>
+                +91-7892650335
               </p>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -89,23 +89,26 @@ const Footer = () => {
               <div className="d-flex">
                 <Link
                   className="btn btn-outline-primary btn-square me-2"
-                  to="#"
+                  to="https://x.com/_thirty40"
                 >
                   <i className="bi bi-twitter"></i>
                 </Link>
                 <Link
                   className="btn btn-outline-primary btn-square me-2"
-                  to="#"
+                  to="https://www.facebook.com/thirty40worldwidelaunchers/"
                 >
                   <i className="bi bi-facebook"></i>
                 </Link>
                 <Link
                   className="btn btn-outline-primary btn-square me-2"
-                  to="#"
+                  to="https://www.linkedin.com/company/thirty40/"
                 >
                   <i className="bi bi-linkedin"></i>
                 </Link>
-                <Link className="btn btn-outline-primary btn-square" to="#">
+                <Link
+                  className="btn btn-outline-primary btn-square"
+                  to="https://www.instagram.com/_thirty40/"
+                >
                   <i className="bi bi-instagram"></i>
                 </Link>
               </div>

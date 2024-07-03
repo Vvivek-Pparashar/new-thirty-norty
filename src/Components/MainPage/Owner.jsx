@@ -46,8 +46,8 @@ const Owner = () => {
                       <h4>AITA Rank</h4>
                     </li>
                     <li>
-                      <h3>1/6</h3>
-                      <h4>German Rank 449 French Rank</h4>
+                      <h3>449</h3>
+                      <h4>German Rank and French Rank</h4>
                     </li>
                   </ul>
                 </div>

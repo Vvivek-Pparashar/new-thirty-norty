@@ -17,12 +17,12 @@ const SpecialOffer = () => {
                   LIMITED SLOTS AVAILABLE HURRY UP!
                 </h1>
               </div>
-              <p className="text-white mb-4">
+              {/* <p className="text-white mb-4">
                 Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et
                 dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero
                 eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr
                 ut dolores magna sit. Sea dolore sed et.
-              </p>
+              </p> */}
               <Link to="#" className="btn btn-light py-md-3 px-md-5 me-3">
                 Enquire Now
               </Link>

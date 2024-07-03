@@ -15,13 +15,18 @@ const HeroPage = () => {
       <div className="container hero-content">
         <div className="row justify-content-start">
           <div className="col-lg-8 text-center text-lg-start">
-            <h1 className="display-1 text-uppercase mb-lg-4" style={{ color: "#cfff95" }}>
+            <h1
+              className="display-1 text-uppercase mb-lg-4"
+              style={{ color: "#cfff95" }}
+            >
               Welcome
             </h1>
             <h1 className="text-uppercase text-white mb-lg-4">to Thirty40</h1>
             <p className="fs-4 text-white mb-lg-4">
-              Dolore tempor clita lorem rebum kasd eirmod dolore diam eos
-              kasd. Kasd clita ea justo est sed kasd erat clita sea
+              We have first hand experience in what is required to become a
+              tennis professional. We have built a community where we have all
+              the resources to help every tennis player by providing him/her
+              counselling as per his/her goal.
             </p>
             <div className="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
               <a
