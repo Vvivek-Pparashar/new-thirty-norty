@@ -15,7 +15,7 @@ const V1 = () => {
     <>
       <NavBar page={"Tennis Academies"}/>
       <div className='p-5'></div>
-      <About/>
+      {/* <About/> */}
       <V1Services/>
       <OurCenter/>
       <YouTube/>
