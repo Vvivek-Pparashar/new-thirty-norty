@@ -27,9 +27,6 @@ const Carousel = () => {
         <div className="hero-page-img-3"></div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="hero-page-img-5"></div>
-      </SwiperSlide>
-      <SwiperSlide>
         <div className="hero-page-img-1"></div>
       </SwiperSlide>
     </Swiper>
