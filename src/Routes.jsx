@@ -12,6 +12,10 @@ import V6 from "./Components/Services/V6";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import ContactUs from "./Components/Contact/ContactUs";
 import ServicesPage from "./Components/Services/ServicesPage";
+import USA from "./Components/countries/USA";
+import Europe from "./Components/countries/Europe";
+import India from "./Components/countries/India";
+// import Global from "./Components/countries/Global";
 
 const router = createBrowserRouter([
   {
@@ -54,6 +58,22 @@ const router = createBrowserRouter([
 
   {
     path: "/countries",
+    element: <Countries />,
+  },
+  {
+    path: "/USA",
+    element: <USA />,
+  },
+  {
+    path: "/Europe",
+    element: <Europe />,
+  },
+  {
+    path: "/India",
+    element: <India />,
+  },
+  {
+    path: "/Global",
     element: <Countries />,
   },
 

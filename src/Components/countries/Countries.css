@@ -1,6 +1,7 @@
 .service-hero-page {
     margin-top: 85px;
     position: relative;
+    /* background-color: #f3ffe3; */
 }
 
 .SH1 {
@@ -15,15 +16,15 @@
 .service-hero-page h1 {
     font-size: 6rem;
     color: white;
-    position: absolute; 
+    position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .services {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     /* gap: 50px; */
 }
 

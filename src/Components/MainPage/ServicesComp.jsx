@@ -3,12 +3,14 @@ import sn1 from "../../../public/img/SH1.jpg";
 import sn2 from "../../../public/img/SH2.jpg";
 import sn3 from "../../../public/img/SH3.jpg";
 import sn4 from "../../../public/img/SH4.jpg";
+import sn5 from "../../../public/img/SH5.jpg";
+import sn6 from "../../../public/img/SH6.jpg";
 import "./ServicesComp.css";
 
 import { Link } from "react-router-dom";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
-const list = ["", sn1, sn2, sn3, sn4, sn1, sn2];
+const list = ["", sn1, sn2, sn3, sn4, sn5, sn6];
 
 const ServicesComp = ({ id, name }) => {
   return (

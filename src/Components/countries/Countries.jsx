@@ -28,28 +28,28 @@ const Countries = () => {
           className="display-4 text-uppercase mb-lg-4"
           style={{ color: "white", textAlign: "center" }}
         >
-          India
+          GLOBAL
         </h1>
       </div>
       <div className="services">
-        <CountryService
+        {/* <CountryService
           direction={1}
         //   bgcolor={"white"}
           serviceIMG={img6}
           serviceHeading={"Admission in Schools and Colleges."}
-        />
+        /> */}
         <CountryService
           direction={2}
-        //   bgcolor={"#7ab730"}
+          //   bgcolor={"#7ab730"}
           serviceIMG={img5}
           serviceHeading={"Admission in Schools and Colleges."}
         />
-        <CountryService
+        {/* <CountryService
           direction={1}
         //   bgcolor={"white"}
           serviceIMG={img4}
           serviceHeading={"Admission in Schools and Colleges."}
-        />
+        /> */}
       </div>
       <Footer />
     </>

@@ -78,16 +78,16 @@ const NavBar = ({ page }) => {
           id="navbarCollapse"
         >
           <div className="navbar-nav ms-auto py-0">
-            <Link to="/countries" className="nav-item nav-link">
+            <Link to="/India" className="nav-item nav-link">
               India
             </Link>
-            <Link to="/countries" className="nav-item nav-link">
+            <Link to="/Europe" className="nav-item nav-link">
               Europe
             </Link>
-            <Link to="/countries" className="nav-item nav-link">
+            <Link to="/USA" className="nav-item nav-link">
               USA
             </Link>
-            <Link to="/countries" className="nav-item nav-link">
+            <Link to="/Global" className="nav-item nav-link">
               Global
             </Link>
             <Link

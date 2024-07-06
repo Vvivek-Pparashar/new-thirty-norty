@@ -2,8 +2,11 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import sn1 from "../../../public/img/testimonial-1.jpg";
-import sn2 from "../../../public/img/testimonial-2.jpg";
+import diya from '../../../public/img/diva.jpeg'
+import anirudh from '../../../public/img/anirudh.jpeg'
+import Kunwar from '../../../public/img/kunwar.jpeg'
+import kanav from '../../../public/img/kanav.jpeg'
+import Tanmay from '../../../public/img/tanmay.jpg'
 // import sn3 from '../../../public/img/testimonial-3.jpg'
 
 const Testimonial = () => {
@@ -30,7 +33,7 @@ const Testimonial = () => {
               >
                 <div className="testimonial-item text-center">
                   <div className="position-relative mb-4">
-                    <img className="img-fluid mx-auto" src={sn1} alt="" />
+                    <img className="img-fluid mx-auto" src={diya} alt="" />
                     <div
                       className="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white"
                       style={{ width: "45px", height: "45px" }}
@@ -52,7 +55,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testimonial-item text-center">
                   <div className="position-relative mb-4">
-                    <img className="img-fluid mx-auto" src={sn2} alt="" />
+                    <img className="img-fluid mx-auto" src={Kunwar} alt="" />
                     <div
                       className="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white"
                       style={{ width: "45px", height: "45px" }}
@@ -74,7 +77,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testimonial-item text-center">
                   <div className="position-relative mb-4">
-                    <img className="img-fluid mx-auto" src={sn2} alt="" />
+                    <img className="img-fluid mx-auto" src={Tanmay} alt="" />
                     <div
                       className="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white"
                       style={{ width: "45px", height: "45px" }}
@@ -97,7 +100,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testimonial-item text-center">
                   <div className="position-relative mb-4">
-                    <img className="img-fluid mx-auto" src={sn2} alt="" />
+                    <img className="img-fluid mx-auto" src={anirudh} alt="" />
                     <div
                       className="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white"
                       style={{ width: "45px", height: "45px" }}
@@ -119,7 +122,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testimonial-item text-center">
                   <div className="position-relative mb-4">
-                    <img className="img-fluid mx-auto" src={sn2} alt="" />
+                    <img className="img-fluid mx-auto" src={kanav} alt="" />
                     <div
                       className="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white"
                       style={{ width: "45px", height: "45px" }}
