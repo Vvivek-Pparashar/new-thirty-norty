@@ -1,0 +1,48 @@
+.europe-feature,
+.spain-feature {
+  width: 85%;
+  margin: auto;
+}
+
+.spain-feature h2,
+.europe-feature h2 {
+  font-size: 35px;
+  color: #7AB730;
+}
+
+.shadow-effect-services {
+  cursor: pointer;
+}
+
+.headtext,
+.USA,
+.INDIA {
+  padding-inline: 100px;
+}
+
+
+@media screen and (max-width: 400px) {
+
+  .europe-feature,
+  .spain-feature {
+    width: 95%;
+    margin: auto;
+  }
+
+  .spain-feature h2,
+  .europe-feature h2 {
+    font-size: 30px;
+  }
+
+  .headtext {
+    padding-inline: 150px;
+  }
+
+  .USA {
+    padding-inline: 50px;
+  }
+
+  .INDIA {
+    padding-inline: 135px;
+  }
+}
