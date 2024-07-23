@@ -50,8 +50,9 @@ const NavBar = ({ page }) => {
       </div> */}
 
       <nav
-        className={`navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0 ${navBg ? "sticky-top" : ""
-          }`}
+        className={`navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0 ${
+          navBg ? "sticky-top" : ""
+        }`}
         style={{
           position: "fixed",
           top: "0",
@@ -77,26 +78,52 @@ const NavBar = ({ page }) => {
           id="navbarCollapse"
         >
           <div className="navbar-nav ms-auto py-0">
-            <Link to="/India" className="nav-item nav-link">
+            <Link
+              to="/India"
+              className={`nav-item nav-link ${
+                page == "India" ? "active" : ""
+              }`}
+            >
               India
             </Link>
-            <Link to="/Europe" className="nav-item nav-link">
+            <Link
+              to="/Europe"
+              className={`nav-item nav-link ${
+                page == "Europe" ? "active" : ""
+              }`}
+            >
               Europe
             </Link>
-            <Link to="/USA" className="nav-item nav-link">
+            <Link
+              to="/USA"
+              className={`nav-item nav-link ${
+                page == "USA" ? "active" : ""
+              }`}
+            >
               USA
             </Link>
-            <Link to="/Global" className="nav-item nav-link">
+            <Link
+              to="/Global"
+              className={`nav-item nav-link ${
+                page == "Global" ? "active" : ""
+              }`}
+            >
               Global
             </Link>
             <Link
               to="/Services/v1"
-              className={`nav-item nav-link ${page == "Tennis Academies" ? "active" : ""
-                }`}
+              className={`nav-item nav-link ${
+                page == "Tennis Academies" ? "active" : ""
+              }`}
             >
               Tennis Academies
             </Link>
-            <Link to="/Services/v2" className="nav-item nav-link">
+            <Link
+              to="/Services/v2"
+              className={`nav-item nav-link ${
+                page == "V2" ? "active" : ""
+              }`}
+            >
               Career Counselling
             </Link>
 

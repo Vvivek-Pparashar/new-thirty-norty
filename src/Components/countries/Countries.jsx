@@ -1,12 +1,7 @@
 import React from "react";
 import "./Countries.css";
 import NavBar from "../NavBar/NavBar";
-import img1 from "../../../public/img/hero5.jpg";
-import img2 from "../../../public/img/SH2.jpg";
-import img3 from "../../../public/img/offer.jpg";
-import img4 from "../../../public/img/vivek6.png";
 import img5 from "../../../public/img/vivek5.png";
-import img6 from "../../../public/img/vivek4.png";
 import Footer from "../Footer/Footer";
 import CountryService from "./countriesServices/CountryService";
 import { ScrollRestoration } from "react-router-dom";
@@ -15,7 +10,7 @@ import Floating from "../FloatingWhatsapp/Floating";
 const Countries = () => {
   return (
     <>
-      <NavBar page={"India"} />
+      <NavBar page={"Global"} />
       <div
         className={`container-fluid bg-primary mb-5 SH1`}
         style={{

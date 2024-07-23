@@ -16,7 +16,7 @@ const PlaceEnquire = () => {
 
   return (
     <div>
-      <NavBar />
+      <NavBar page={"V2"}/>
       <EnquirePageForm />
       <Footer />
       <Floating />

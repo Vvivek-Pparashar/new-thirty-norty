@@ -13,7 +13,7 @@ const Europe = () => {
   };
   return (
     <>
-      <NavBar />
+      <NavBar page={"Europe"}/>
       <div
         className={"container-fluid bg-primary mb-5 SH1"}
         style={{
