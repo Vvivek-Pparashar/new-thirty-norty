@@ -14,6 +14,7 @@ import Youtube from "./Components/MainPage/Youtube";
 import Instagram from "./Components/MainPage/Instagram";
 import OurUni from "./Components/MainPage/OurUni";
 import Floating from "./Components/FloatingWhatsapp/Floating";
+import About from "./Components/MainPage/About";
 
 const App = () => {
   const [display, setDisplay] = useState(false);
@@ -27,6 +28,7 @@ const App = () => {
       {display ? <Model /> : ""}
       <NavBar />
       <HeroPage />
+      <About/>
       <Services />
       <OurCenter />
       <OurUni />

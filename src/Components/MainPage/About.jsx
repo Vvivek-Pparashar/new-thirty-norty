@@ -28,7 +28,8 @@ const About = () => {
                 </h1>
               </div>
               <h4 className="text-body mb-4">
-                Effective coaching based on the statistics of the international tennis circuit and player-specific detailed information
+                Effective coaching based on the statistics of the international
+                tennis circuit and player-specific detailed information
               </h4>
               <div className="bg-light p-4">
                 <ul
@@ -38,8 +39,9 @@ const About = () => {
                 >
                   <li className="nav-item w-50" role="presentation">
                     <button
-                      className={`nav-link text-uppercase w-100 ${user == 1 ? "active" : ""
-                        }`}
+                      className={`nav-link text-uppercase w-100 ${
+                        user == 1 ? "active" : ""
+                      }`}
                       id="pills-1-tab"
                       data-bs-toggle="pill"
                       data-bs-target="#pills-1"
@@ -54,8 +56,9 @@ const About = () => {
                   </li>
                   <li className="nav-item w-50" role="presentation">
                     <button
-                      className={`nav-link text-uppercase w-100 ${user == 2 ? "active" : ""
-                        }`}
+                      className={`nav-link text-uppercase w-100 ${
+                        user == 2 ? "active" : ""
+                      }`}
                       id="pills-2-tab"
                       data-bs-toggle="pill"
                       data-bs-target="#pills-2"
@@ -71,25 +74,39 @@ const About = () => {
                 </ul>
                 <div className="tab-content" id="pills-tabContent">
                   <div
-                    className={`tab-pane fade show ${user == 1 ? "active" : ""
-                      }`}
+                    className={`tab-pane fade show ${
+                      user == 1 ? "active" : ""
+                    }`}
                     id="pills-1"
                     role="tabpanel"
                     aria-labelledby="pills-1-tab"
                   >
                     <p className="mb-0">
-                      We follow a system of transparency, which is lacking in the current Indian tennis system, and create player-centric coaching programs. We provide technical and tactical coaching based on a long-term guidance plan segregated into short-term targets, with reality checks of the players’ strengths and weaknesses
+                      To strengthen the tennis culture in India and facilitate
+                      it to emerge into a tennis-playing nation. Provide
+                      effective coaching based on the statistics of the
+                      international tennis circuit. Player specific detailed
+                      guidance to strengthen their game. Our aim is to detangle
+                      the process taken in the career path for those who aspire
+                      to become tennis professionals and make it
+                      easier and simpler.
                     </p>
                   </div>
                   <div
-                    className={`tab-pane fade show ${user == 2 ? "active" : ""
-                      }`}
+                    className={`tab-pane fade show ${
+                      user == 2 ? "active" : ""
+                    }`}
                     id="pills-2"
                     role="tabpanel"
                     aria-labelledby="pills-2-tab"
                   >
                     <p className="mb-0">
-                      Our team consists of certified coaches and professional tennis players who have first-hand experience and exposure of the journey of tennis as a career and related pathways. This enables us to make the whole process easier and player-centric.
+                      We follow a system of transparency, which is lacking in
+                      the current Indian tennis system, and create
+                      player-centric coaching programs. We provide technical and
+                      tactical coaching based on a long-term guidance plan
+                      segregated into short-term targets, with reality checks of
+                      the players’ strengths and weaknesses
                     </p>
                   </div>
                 </div>
