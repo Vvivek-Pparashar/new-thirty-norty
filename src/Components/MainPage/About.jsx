@@ -5,7 +5,7 @@ const About = () => {
   const [user, setUser] = useState(1);
   return (
     <div>
-      <div className="container-fluid py-5">
+      <div className="container-fluid py-lg-5 py-4">
         <div className="container">
           <div className="row gx-5">
             <div

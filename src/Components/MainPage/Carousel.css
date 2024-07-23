@@ -7,6 +7,13 @@
     z-index: -1;
 }
 
+.hero-txt {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 20px 20px 40px 40px;
+    border-top: 10px solid green;
+}
+
 .hero-page-img-1 {
     width: 100vw;
     height: 100%;
@@ -19,7 +26,7 @@
 .hero-page-img-2 {
     width: 100vw;
     height: 100%;
-    background-image: url("../../../public/img/hero4.jpg");
+    background-image: url("../../../public/img/hero5.jpg");
     background-position: 0% 70%;
     background-size: cover;
 }
@@ -28,11 +35,12 @@
     width: 100vw;
     height: 100%;
 
-    background-image: url("../../../public/img/hero5.jpg");
-    background-position: 0% 70%;
+    background-image: url("../../../public/img/bgt40.jpg");
+    background-position: 0% 10%;
     background-size: cover;
 }
 
+/* 
 .hero-page-img-5 {
     width: 100vw;
     height: 100%;
@@ -40,7 +48,7 @@
     background-image: url("../../../public/img/Hero.jpg");
     background-position: 0% 30%;
     background-size: cover;
-}
+} */
 
 @media screen and (max-width: 1084px) and (min-width: 600px) {
     .hero-page-img-1 {

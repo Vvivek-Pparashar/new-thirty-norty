@@ -15,6 +15,7 @@ import V3 from "./Components/Services/V3";
 import V4 from "./Components/Services/V4";
 import V5 from "./Components/Services/V5";
 import V6 from "./Components/Services/V6";
+import TAC from "./Components/T&C/TAC";
 // import Global from "./Components/countries/Global";
 
 const router = createBrowserRouter([
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path: "/EnquireNow/:id",
     element: <PlaceEnquire />,
+  },
+  {
+    path: "/T&C",
+    element: <TAC />,
   },
 
   //////////Blogs Pages//////////////////

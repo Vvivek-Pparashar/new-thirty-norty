@@ -1,0 +1,23 @@
+.client-logo {
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(218, 216, 216, 0.4);
+    background-size: cover;
+}
+
+.client-logo img {
+    height: 150px;
+}
+
+@media screen and (max-width : 400px) {
+    .client-logo {
+        height: 180px;
+    }
+
+    .client-logo img {
+        height: 120px;
+    }
+}

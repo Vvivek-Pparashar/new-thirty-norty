@@ -1,8 +1,8 @@
 import React from "react";
 import sn1 from "../../../public/img/SH1.jpg";
-import sn2 from "../../../public/img/SH2.jpg";
+import sn2 from "../../../public/img/t7.jpg";
 import sn3 from "../../../public/img/SH3.jpg";
-import sn4 from "../../../public/img/SH4.jpg";
+import sn4 from "../../../public/img/t5.jpg";
 import sn5 from "../../../public/img/SH5.jpg";
 import sn6 from "../../../public/img/SH6.jpg";
 import "./ServicesComp.css";
@@ -26,7 +26,11 @@ const ServicesComp = ({ id, name }) => {
           width: "100%",
         }}
       >
-        <img src={list[id]} className="services-img" />
+        <img src={list[id]} className="services-img"
+          style={{
+            maxHeight: "270px",
+          }}
+        />
         <h3
           style={{
             fontSize: "25px",

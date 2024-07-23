@@ -62,25 +62,52 @@ const List = [
 
 const V1Services = () => {
   return (
-      <div className="container-fluid py-5">
-        <div className="container">
-          <div
-            className="border-start border-5 border-primary ps-5 mb-5"
-            style={{ maxWidth: 600 + "px" }}
-          >
-            <h6 className="text-primary text-uppercase">Services</h6>
-            <h1 className="display-5 text-uppercase mb-0">
-              Our Excellent Tennis Services
-            </h1>
+    <div className="container-fluid py-5">
+      <div className="container">
+        <div
+          className="border-start border-5 border-primary ps-5 mb-lg-3 mb-5"
+          style={{ maxWidth: 600 + "px" }}
+        >
+          <h6 className="text-primary text-uppercase">Why choose,</h6>
+          <h1 className="display-5 text-uppercase mb-0">Thirty40</h1>
+        </div>
+        <div class="row g-lg-5 py-lg-5 ">
+          <div class="col-lg-6" >
+            <h1>We are based in</h1>
+            <h3>India, Germany, Czech Republic, Spain, USA, Italy, Canada and France</h3>
           </div>
-          <div className="row g-5">
-            {List.map((e) => (
-              <ServicesList heading={e.heading} icon={e.icon} />
-            ))}
-            
+          <div class="col-lg-6 py-5 pt- pt-lg-0">
+            <h5>
+              Our Mission at Thirty40 is to enable every player to:
+
+            </h5>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Make the process of becoming a tennis professional easier and simpler.</li>
+              <li><i class="ri-check-double-line"></i> Provide cost-effective ways for players to train abroad and play international tournaments and leagues. </li>
+              <li><i class="ri-check-double-line"></i> Initially train the players at our academies in India and then send them abroad on scholarships and arrange sponsorships. </li>
+              <li><i class="ri-check-double-line"></i> Players going to tennis academies can continue their education by studying on scholarships in public and private universities abroad. </li>
+            </ul>
+
           </div>
         </div>
+        <div
+          className="border-start border-5 border-primary ps-5 mb-5"
+          style={{ maxWidth: 600 + "px" }}
+        >
+          <h6 className="text-primary text-uppercase">Services</h6>
+          <h1 className="display-5 text-uppercase mb-0">
+            Our Excellent Tennis Services
+          </h1>
+        </div>
+        <div className="row g-5">
+          {List.map((e) => (
+            <ServicesList heading={e.heading} icon={e.icon} />
+          ))}
+
+        </div>
+
       </div>
+    </div>
   );
 };
 

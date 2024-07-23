@@ -64,9 +64,13 @@ const Footer = () => {
                   Services
                 </Link>
 
-                <Link className="text-body" to="/ContactUs">
+                <Link className="text-body mb-2" to="/ContactUs">
                   <i className="bi bi-arrow-right text-primary me-2"></i>Contact
                   Us
+                </Link>
+                <Link className="text-body" to="/T&C">
+                  <i className="bi bi-arrow-right text-primary me-2"></i>
+                  Terms & Conditions
                 </Link>
               </div>
             </div>

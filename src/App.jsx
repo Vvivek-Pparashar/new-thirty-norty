@@ -14,6 +14,7 @@ import HeroPage from "./Components/MainPage/HeroPage";
 import News from "./Components/MainPage/News";
 import Youtube from "./Components/MainPage/Youtube";
 import Instagram from "./Components/MainPage/Instagram";
+import OurUni from "./Components/MainPage/OurUni";
 
 const App = () => {
   const [display, setDisplay] = useState(false);
@@ -26,15 +27,17 @@ const App = () => {
     <>
       {display ? <Model /> : ""}
       <NavBar />
-      <HeroPage/>
+      <HeroPage />
       <Services />
       <OurCenter />
+      <OurUni />
+      <div className="pb-5"></div>
       <SpecialOffer />
       <Testimonial />
-      <News/>
+      <News />
       {/* <LatestBlogs /> */}
-      <Youtube/>
-      <Instagram/>
+      <Youtube />
+      <Instagram />
       <Owner />
       <Footer />
       <ScrollRestoration />
