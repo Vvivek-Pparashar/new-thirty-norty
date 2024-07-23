@@ -1,12 +1,12 @@
-import React from 'react'
-import PlaceEnquire from '../EnquireNow/PlaceEnquire'
+import React from "react";
+import PlaceEnquire from "../EnquireNow/PlaceEnquire";
 
 const V6 = () => {
-    return (
-        <>
-            <PlaceEnquire />
-        </>
-    )
-}
+  return (
+    <>
+      <PlaceEnquire />
+    </>
+  );
+};
 
-export default V6
+export default V6;

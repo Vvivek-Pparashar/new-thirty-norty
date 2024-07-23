@@ -6,6 +6,7 @@ import Footer from "../Footer/Footer";
 // import CountryService from "./countriesServices/CountryService";
 import { ScrollRestoration } from "react-router-dom";
 import OurCenter from "../MainPage/OurCenter";
+import Floating from "../FloatingWhatsapp/Floating";
 
 const India = () => {
   return (
@@ -33,7 +34,7 @@ const India = () => {
         <div className={`container-fluid`}>
           <div
             className={`container service-container `}
-          // style={{ backgroundColor: `${bgcolor}` }}
+            // style={{ backgroundColor: `${bgcolor}` }}
           >
             <div className="service-text">
               <div className="border-start border-5 border-primary ps-5 mb-3">
@@ -43,23 +44,37 @@ const India = () => {
                 </h1>
               </div>
               <p>
-                Thirt40 offers an exceptional environment for aspiring tennis players to hone their skills and achieve their full potential. Equipped with state-of-the-art facilities, Our academy provide comprehensive training programs that include on-court practice, fitness conditioning, mental coaching, and nutritional guidance. With experienced coaches and a structured curriculum, students receive personalized attention to improve their technique, strategy, and overall performance. In addition to regular training sessions, players have the opportunity to compete in local, national, and international tournaments
+                Thirt40 offers an exceptional environment for aspiring tennis
+                players to hone their skills and achieve their full potential.
+                Equipped with state-of-the-art facilities, Our academy provide
+                comprehensive training programs that include on-court practice,
+                fitness conditioning, mental coaching, and nutritional guidance.
+                With experienced coaches and a structured curriculum, students
+                receive personalized attention to improve their technique,
+                strategy, and overall performance. In addition to regular
+                training sessions, players have the opportunity to compete in
+                local, national, and international tournaments
               </p>
               <h2>Features</h2>
               <ul>
                 <li>
-                  The academy offers personalized coaching tailored to each player's needs, from beginners to aspiring professionals.
+                  The academy offers personalized coaching tailored to each
+                  player's needs, from beginners to aspiring professionals.
                 </li>
                 <li>
-                  The academy offers sports psychotherapy, nutrition counseling, and fitness training, ensuring a holistic approach to player development.
+                  The academy offers sports psychotherapy, nutrition counseling,
+                  and fitness training, ensuring a holistic approach to player
+                  development.
                 </li>
                 <li>
-                  The coaches include former ATP and WTA players with extensive experience in the sport.
+                  The coaches include former ATP and WTA players with extensive
+                  experience in the sport.
                 </li>
                 <li>
-                  Overall, With centers in Delhi, Gurugram, Muzaffarnagar, and Spain, the academy provides top-notch facilities to train, practice, and compete.
+                  Overall, With centers in Delhi, Gurugram, Muzaffarnagar, and
+                  Spain, the academy provides top-notch facilities to train,
+                  practice, and compete.
                 </li>
-
               </ul>
             </div>
             <div className="service-img">
@@ -70,6 +85,7 @@ const India = () => {
       </div>
       <OurCenter />
       <Footer />
+      <Floating />
       <ScrollRestoration />
     </>
   );

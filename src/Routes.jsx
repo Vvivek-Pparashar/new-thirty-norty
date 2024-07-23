@@ -39,10 +39,7 @@ const router = createBrowserRouter([
     path: "/EnquireNow",
     element: <EnquireNow />,
   },
-  // {
-  //   path: "/Blog",
-  //   element: <BlogGrid />,
-  // },
+
   {
     path: "/EnquireNow/:id",
     element: <PlaceEnquire />,
@@ -52,12 +49,6 @@ const router = createBrowserRouter([
     element: <TAC />,
   },
 
-  //////////Blogs Pages//////////////////
-
-  // {
-  //   path: "/Blog1",
-  //   element: <Blog1 />,
-  // },
 
   ////////////Countries Pages///////////////
 

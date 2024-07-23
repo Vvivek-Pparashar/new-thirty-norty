@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import EnquirePageForm from "./EnquirePageForm";
 import NavBar from "../NavBar/NavBar";
+import Floating from "../FloatingWhatsapp/Floating";
 
 const PlaceEnquire = () => {
   const location = useLocation();
@@ -18,7 +19,7 @@ const PlaceEnquire = () => {
       <NavBar />
       <EnquirePageForm />
       <Footer />
-      <FloatingWhatsApp />
+      <Floating />
       <ScrollRestoration />
     </div>
   );

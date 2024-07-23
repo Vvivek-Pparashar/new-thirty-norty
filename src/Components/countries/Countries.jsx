@@ -10,6 +10,7 @@ import img6 from "../../../public/img/vivek4.png";
 import Footer from "../Footer/Footer";
 import CountryService from "./countriesServices/CountryService";
 import { ScrollRestoration } from "react-router-dom";
+import Floating from "../FloatingWhatsapp/Floating";
 
 const Countries = () => {
   return (
@@ -53,6 +54,7 @@ const Countries = () => {
         /> */}
       </div>
       <Footer />
+      <Floating />
       <ScrollRestoration />
     </>
   );
